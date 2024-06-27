@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 750px;
+}
+
+li {
+  list-style: none;
+  margin: 0 auto 20px auto;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.other-message {
+  background: limegreen;
+  color: #fff;
+}
+
+.my-message {
+  background: darkgrey;
+  color: #fff;
+}
+
+.info-message {
+  background: mediumaquamarine;
+  color: #fff;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-top: 60px;
+}
+
+.hidden {
+  display: none;
+}
+
+#join-button {
+  background: lime;
+  color: black;
+}
+
+#leave-button {
+  background: red;
+  color: white;
+}
